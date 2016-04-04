@@ -16,7 +16,7 @@
 					"simple_Name",
 					"simple-types.j.xml",
 					"simple-types k.xml",
-					"simple-types \"l\".xml",
+					"simple-types \"l.\"xml",
 					"simple-types \".m 'xml",
 				};
 

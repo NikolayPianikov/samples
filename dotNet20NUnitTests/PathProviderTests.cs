@@ -1,5 +1,6 @@
 ﻿namespace dotNet20NUnitTests
 {
+	using System;
 	using System.Collections.Generic;
 
 	using NUnit.Framework;
@@ -27,6 +28,12 @@
 
 		[Test, TestCaseSource("TestDataList")]
 		public void ReproduceTeamCityReportingBug(string data)
+		{
+		}
+
+		[Test]
+		[TestCase("arg1", "arg 2", "arg.3")]
+		public void ReproduceTeamCityReportingBugForCases(string arg1, string arg2, string arg3)
 		{
 		}
 	}

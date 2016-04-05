@@ -1,5 +1,7 @@
 ﻿namespace dotNet20NUnitTests
 {
+	using System;
+
 	using dotNet20ClassLibrary;
 
 	using NUnit.Framework;
@@ -10,6 +12,7 @@
 		[Test]
 		public void TestDo()
 		{
+			Console.WriteLine("Console output !!!");
 			new Class1().Do();
 		}
 	}

@@ -9,7 +9,7 @@
 	[TestFixture]
 	public class Class1Tests
 	{
-		[Test]
+		[Test, Category("Sucess")]
 		public void TestDo()
 		{
 			Console.WriteLine("Console output !!!");

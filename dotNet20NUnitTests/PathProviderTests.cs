@@ -30,12 +30,14 @@
 		[Test, TestCaseSource("TestDataList")]
 		public void ReproduceTeamCityReportingBug(string arg1, string arg2, string arg3)
 		{
+			Console.WriteLine("Console output !!!");
 		}
 
 		[Test]
 		[TestCase("arg1", "arg 2", "arg.3")]
 		public void ReproduceTeamCityReportingBugForCases(string arg1, string arg2, string arg3)
 		{
+			Assert.Inconclusive("Inconclusive output !!!");
 		}
 	}
 }

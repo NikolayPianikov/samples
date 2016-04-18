@@ -16,7 +16,7 @@
 		[Test, Category("F")]
 		public void TestFail()
 		{
-			Assert.Fail("Faile reason!!");
+			Assert.Fail("Fail reason!!");
 		}
 	}
 }

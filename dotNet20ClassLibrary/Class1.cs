@@ -8,6 +8,7 @@
 	    {		    
 			Console.WriteLine($"CurrentDirectory={Environment.CurrentDirectory}");
 			Console.WriteLine($"Bitness={IntPtr.Size * 8}");
+			Console.WriteLine($"ConfigurationFile={AppDomain.CurrentDomain.SetupInformation.ConfigurationFile}");
 	    }
     }
 }

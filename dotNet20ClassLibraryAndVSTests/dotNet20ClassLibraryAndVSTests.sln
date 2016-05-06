@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNet20ClassLibraryAndVSTests", "dotNet20ClassLibraryAndVSTests\dotNet20ClassLibraryAndVSTests.csproj", "{42E3EA51-F713-4C5A-BB86-20453E24B04E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNet20ClassLibrary", "dotNet20ClassLibrary\dotNet20ClassLibrary.csproj", "{36A58881-577A-4A7F-9431-8A4EC279D89D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNet20ClassLibrary", "..\dotNet20ClassLibrary\dotNet20ClassLibrary.csproj", "{36A58881-577A-4A7F-9431-8A4EC279D89D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

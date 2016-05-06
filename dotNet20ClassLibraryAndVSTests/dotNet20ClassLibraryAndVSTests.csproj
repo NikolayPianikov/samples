@@ -57,8 +57,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\dotNet20ClassLibrary\dotNet20ClassLibrary.csproj">
-      <Project>{36A58881-577A-4A7F-9431-8A4EC279D89D}</Project>
+    <ProjectReference Include="..\dotNet20ClassLibrary\dotNet20ClassLibrary.csproj">
+      <Project>{36a58881-577a-4a7f-9431-8a4ec279d89d}</Project>
       <Name>dotNet20ClassLibrary</Name>
     </ProjectReference>
   </ItemGroup>

@@ -7,7 +7,7 @@
     using NUnit.Framework;
 
     [TestFixture]
-    public class OneTimeSetupTests
+    public class SetupTests
     {
         [SetUp]
         public void SetUp()

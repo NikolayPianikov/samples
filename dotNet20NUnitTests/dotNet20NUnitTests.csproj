@@ -78,7 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1Tests.cs" />
-    <Compile Include="OneTimeSetupTests.cs" />
+    <Compile Include="SetupTests.cs" />
     <Compile Include="PathProviderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

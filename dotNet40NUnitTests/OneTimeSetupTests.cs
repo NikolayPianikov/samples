@@ -1,7 +1,6 @@
 ﻿namespace dotNet40NUnitTests
 {
 	using System;
-	using System.ComponentModel.Design;
 
 	using dotNet40ClassLibrary;
 

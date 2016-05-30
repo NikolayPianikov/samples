@@ -15,6 +15,12 @@
 			Console.WriteLine("Привет !!!");
 			new Class1().Do();
 		}
-	}
+
+        [Test]
+        public void TestFailed()
+        {            
+            Assert.Fail("Привет !!!");
+        }
+    }
 
 }

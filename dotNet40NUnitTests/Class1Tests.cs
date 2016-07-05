@@ -1,5 +1,7 @@
 ﻿namespace dotNet40NUnitTests
 {
+    using System;
+
     using dotNet40ClassLibrary;
 
     using NUnit.Framework;
@@ -22,7 +24,7 @@
         [Test, Category("ru")]
         public void TestRu()
         {
-            Assert.Pass("Все хорошо!!!");
+            Console.WriteLine("Все хорошо!!!");
         }
     }
 }

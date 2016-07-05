@@ -25,12 +25,6 @@
 		public void TestDo2()
 		{
 			new Class1().Do();
-		}
-
-        [Test, Category("ru")]
-        public void TestRu()
-        {
-            Assert.Pass("Все хорошо!!!");
-        }
+		}        
     }
 }

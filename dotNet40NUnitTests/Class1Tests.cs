@@ -12,6 +12,8 @@
         [Test]
         public void TestDo()
         {
+            Console.WriteLine("This is stdOut !!!");
+            Console.Error.WriteLine("This is stdError !!!");
             new Class1().Do();
         }
 

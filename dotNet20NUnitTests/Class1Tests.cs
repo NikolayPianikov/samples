@@ -1,6 +1,7 @@
 ﻿namespace dotNet20NUnitTests
 {
 	using System;
+	using System.Runtime.InteropServices;
 
 	using dotNet20ClassLibrary;
 
@@ -12,7 +13,7 @@
 		[Test, Category("Sucess")]
 		public void TestDo()
 		{
-			Console.WriteLine("Console output !!!");
+			Console.WriteLine($"Console output !!! IntPtr.Size={IntPtr.Size}");
 			new Class1().Do();
 		}
 	}

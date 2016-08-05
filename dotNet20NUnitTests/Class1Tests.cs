@@ -13,8 +13,7 @@
 		public void TestDo()
 		{
 			Console.WriteLine($"Console output !!! IntPtr.Size={IntPtr.Size}");
-			new Class1().Do();
-		    System.Threading.Thread.Sleep(TimeSpan.FromMinutes(10));
+			new Class1().Do();		    
 		}
 	}
 

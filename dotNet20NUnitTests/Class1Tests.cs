@@ -1,7 +1,6 @@
 ﻿namespace dotNet20NUnitTests
 {
 	using System;
-	using System.Runtime.InteropServices;
 
 	using dotNet20ClassLibrary;
 
@@ -15,6 +14,7 @@
 		{
 			Console.WriteLine($"Console output !!! IntPtr.Size={IntPtr.Size}");
 			new Class1().Do();
+		    System.Threading.Thread.Sleep(TimeSpan.FromMinutes(10));
 		}
 	}
 
